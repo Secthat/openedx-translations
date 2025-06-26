@@ -97,7 +97,7 @@
   "password.security.nudge.body": "Wykryliśmy, że Twoje hasło jest podatne na ataki. Zalecamy jego zmianę, aby zabezpieczyć konto.",
   "password.security.block.body": "System wykrył, że Twoje hasło jest podatne. Zmień je, aby zabezpieczyć swoje konto.",
   "password.security.close.button": "Zamknij",
-  "password.security.redirect.to.reset.password.button": "Zresetuj hasło"
+  "password.security.redirect.to.reset.password.button": "Zresetuj hasło",
   "login.tpa.authentication.failure": "Przykro nam, ale nie masz uprawnień do uzyskania dostępu do {platform_name} przez ten kanał. Skontaktuj się ze swoim administratorem lub opiekunem edukacyjnym, aby uzyskać dostęp do {platform_name}.{lineBreak}{lineBreak}Szczegóły błędu:{lineBreak}{errorMessage}",
   "progressive.profiling.page.title": "Witamy | {siteName}",
   "progressive.profiling.page.heading": "Kilka pytań pomoże nam lepiej Cię poznać.",
@@ -139,7 +139,7 @@
   "create.account.cta.button": "{label}",
   "register.institution.login.button": "Dane logowania instytucji/kampusu",
   "register.institution.login.page.title": "Rejestracja przy użyciu danych instytucji/kampusu",
-  "empty.name.field.error": "Wpisz swoje pełne imię i nazwisko"
+  "empty.name.field.error": "Wpisz swoje pełne imię i nazwisko",
   "empty.email.field.error": "Wprowadź swój adres e-mail",
   "empty.username.field.error": "Nazwa użytkownika musi mieć od 2 do 30 znaków",
   "empty.password.field.error": "Hasło nie spełnia wymagań",
