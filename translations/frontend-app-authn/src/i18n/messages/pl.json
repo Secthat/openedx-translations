@@ -18,7 +18,7 @@
   "hide.password": "Ukryj hasło",
   "one.letter": "1 litera",
   "one.number": "1 cyfra",
-  "eight.characters": "8 znaków"
+  "eight.characters": "8 znaków",
   "password.sr.only.helping.text": "Hasło musi zawierać co najmniej 8 znaków, przynajmniej jedną literę i przynajmniej jedną cyfrę",
   "tpa.alert.heading": "Prawie gotowe!",
   "login.third.party.auth.account.not.linked": "Pomyślnie zalogowano się do {currentProvider}, ale Twoje konto {currentProvider} nie jest powiązane z kontem {platformName}. Aby je połączyć, zaloguj się teraz przy użyciu hasła do {platformName}.",
