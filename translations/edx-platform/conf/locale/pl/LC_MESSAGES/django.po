@@ -18186,7 +18186,7 @@ msgstr ""
 #: themes/stanford-style/lms/templates/index.html:22
 #: themes/stanford-style/lms/templates/index.html:23
 msgid "Search for a course"
-msgstr ""
+msgstr "Szukaj kursu"
 
 #: lms/templates/index_overlay.html:8
 #, python-brace-format
@@ -21757,7 +21757,7 @@ msgstr ""
 #: lms/templates/header/navbar-not-authenticated.html:53
 #: lms/templates/header/navbar-not-authenticated.html:57
 msgid "Register for free"
-msgstr ""
+msgstr "Zarejestruj się za darmo"
 
 #: lms/templates/header/user_dropdown.html:47
 msgid "Profile"
