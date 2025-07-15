@@ -10302,7 +10302,7 @@ msgid
 "administrator at {enterprise_customer_name}."
 msgstr 
 "Jeśli masz obawy dotyczące udostępniania swoich danych, skontaktuj się z administratorem"
-"pod adresem {enterprise_customer_name}".
+"pod adresem {enterprise_customer_name}."
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:15
 msgid "Home"
@@ -22446,7 +22446,7 @@ msgstr
 #: lms/templates/emails/order_confirmation_email.txt:10
 #, python-brace-format
 msgid "If you have billing questions, please contact {billing_email}."
-msgstr „Jeśli masz pytania dotyczące rozliczeń, skontaktuj się z {billing_email}”.
+msgstr "Jeśli masz pytania dotyczące rozliczeń, skontaktuj się z {billing_email}".
 
 #: lms/templates/emails/business_order_confirmation_email.txt:19
 #, python-brace-format
