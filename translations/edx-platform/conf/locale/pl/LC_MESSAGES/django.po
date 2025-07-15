@@ -9,7 +9,6 @@
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
@@ -21,7 +20,6 @@
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -1407,7 +1405,7 @@ msgstr ""
 msgid ""
 "This is the bulk SKU (stock keeping unit) of this mode in the external "
 "ecommerce service."
-msgstr "To jest hurtowe SKU (jednostka magazynowa) tego trybu w zewnętrznym serwisie e-commerce
+msgstr "To jest hurtowe SKU (jednostka magazynowa) tego trybu w zewnętrznym serwisie e-commerce."
 
 #: common/djangoapps/course_modes/models.py:249
 msgid ""
@@ -2390,97 +2388,110 @@ msgid_plural "%(num)d symbols"
 msgstr[0] "%(num)d symbol"
 msgstr[1] "%(num)d symboli"
 
-#: common/djangoapps/util/password_policy_validators.py:279
+#: common/djangoapps/util/password_policy_validators.py:231
 #, python-format
 msgid "%(num)d number"
 msgid_plural "%(num)d numbers"
 msgstr[0] "%(num)d cyfra"
 msgstr[1] "%(num)d cyfr"
 
+#: common/djangoapps/util/password_policy_validators.py:261
+#, python-format
+msgid "This password must contain at least %(min_numeric)d number."
+msgid_plural "This password must contain at least %(min_numeric)d numbers."
+msgstr[0] "To hasło musi zawierać co najmniej %(min_numeric)d cyfrę."
+msgstr[1] "To hasło musi zawierać co najmniej %(min_numeric)d cyfry."
+
+#: common/djangoapps/util/password_policy_validators.py:271
+#, python-format
+msgid "Your password must contain at least %(min_numeric)d number."
+msgid_plural "Your password must contain at least %(min_numeric)d numbers."
+msgstr[0] "Twoje hasło musi zawierać co najmniej %(min_numeric)d cyfrę."
+msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_numeric)d cyfry."
+
+#: common/djangoapps/util/password_policy_validators.py:279
+#, python-format
+msgid "%(num)d number"
+msgid_plural "%(num)d numbers"
+msgstr[0] "%(num)d cyfra"
+msgstr[1] "%(num)d cyfry"
+
 #: common/djangoapps/util/password_policy_validators.py:309
 #, python-format
 msgid "This password must contain at least %(min_upper)d uppercase letter."
-msgid_plural ""
-"This password must contain at least %(min_upper)d uppercase letters."
+msgid_plural "This password must contain at least %(min_upper)d uppercase letters."
 msgstr[0] "To hasło musi zawierać co najmniej %(min_upper)d wielką literę."
-msgstr[1] "To hasło musi zawierać co najmniej %(min_upper)d wielkich liter."
+msgstr[1] "To hasło musi zawierać co najmniej %(min_upper)d wielkie litery."
 
 #: common/djangoapps/util/password_policy_validators.py:319
 #, python-format
 msgid "Your password must contain at least %(min_upper)d uppercase letter."
-msgid_plural ""
-"Your password must contain at least %(min_upper)d uppercase letters."
+msgid_plural "Your password must contain at least %(min_upper)d uppercase letters."
 msgstr[0] "Twoje hasło musi zawierać co najmniej %(min_upper)d wielką literę."
-msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_upper)d wielkich liter."
+msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_upper)d wielkie litery."
 
 #: common/djangoapps/util/password_policy_validators.py:327
 #, python-format
 msgid "%(num)d uppercase letter"
 msgid_plural "%(num)d uppercase letters"
 msgstr[0] "%(num)d wielka litera"
-msgstr[1] "%(num)d wielkich liter"
+msgstr[1] "%(num)d wielkie litery"
 
 #: common/djangoapps/util/password_policy_validators.py:357
 #, python-format
 msgid "This password must contain at least %(min_lower)d lowercase letter."
-msgid_plural ""
-"This password must contain at least %(min_lower)d lowercase letters."
+msgid_plural "This password must contain at least %(min_lower)d lowercase letters."
 msgstr[0] "To hasło musi zawierać co najmniej %(min_lower)d małą literę."
-msgstr[1] "To hasło musi zawierać co najmniej %(min_lower)d małych liter."
+msgstr[1] "To hasło musi zawierać co najmniej %(min_lower)d małe litery."
 
 #: common/djangoapps/util/password_policy_validators.py:367
 #, python-format
 msgid "Your password must contain at least %(min_lower)d lowercase letter."
-msgid_plural ""
-"Your password must contain at least %(min_lower)d lowercase letters."
+msgid_plural "Your password must contain at least %(min_lower)d lowercase letters."
 msgstr[0] "Twoje hasło musi zawierać co najmniej %(min_lower)d małą literę."
-msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_lower)d małych liter."
+msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_lower)d małe litery."
 
 #: common/djangoapps/util/password_policy_validators.py:375
 #, python-format
 msgid "%(num)d lowercase letter"
 msgid_plural "%(num)d lowercase letters"
 msgstr[0] "%(num)d mała litera"
-msgstr[1] "%(num)d małych liter"
+msgstr[1] "%(num)d małe litery"
 
 #: common/djangoapps/util/password_policy_validators.py:406
 #, python-format
-msgid ""
-"This password must contain at least %(min_punctuation)d punctuation mark."
-msgid_plural ""
-"This password must contain at least %(min_punctuation)d punctuation marks."
+msgid "This password must contain at least %(min_punctuation)d punctuation mark."
+msgid_plural "This password must contain at least %(min_punctuation)d punctuation marks."
 msgstr[0] "To hasło musi zawierać co najmniej %(min_punctuation)d znak interpunkcyjny."
-msgstr[1] "To hasło musi zawierać co najmniej %(min_punctuation)d znaków interpunkcyjnych."
+msgstr[1] "To hasło musi zawierać co najmniej %(min_punctuation)d znaki interpunkcyjne."
 
 #: common/djangoapps/util/password_policy_validators.py:416
 #, python-format
-msgid ""
-"Your password must contain at least %(min_punctuation)d punctuation mark."
-msgid_plural ""
-"Your password must contain at least %(min_punctuation)d punctuation marks."
+msgid "Your password must contain at least %(min_punctuation)d punctuation mark."
+msgid_plural "Your password must contain at least %(min_punctuation)d punctuation marks."
 msgstr[0] "Twoje hasło musi zawierać co najmniej %(min_punctuation)d znak interpunkcyjny."
-msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_punctuation)d znaków interpunkcyjnych."
+msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_punctuation)d znaki interpunkcyjne."
 
 #: common/djangoapps/util/password_policy_validators.py:424
 #, python-format
 msgid "%(num)d punctuation mark"
 msgid_plural "%(num)d punctuation marks"
 msgstr[0] "%(num)d znak interpunkcyjny"
-msgstr[1] "%(num)d znaków interpunkcyjnych"
+msgstr[1] "%(num)d znaki interpunkcyjne"
 
 #: common/djangoapps/util/password_policy_validators.py:454
 #, python-format
 msgid "This password must contain at least %(min_symbol)d symbol."
 msgid_plural "This password must contain at least %(min_symbol)d symbols."
 msgstr[0] "To hasło musi zawierać co najmniej %(min_symbol)d symbol."
-msgstr[1] "To hasło musi zawierać co najmniej %(min_symbol)d symboli."
+msgstr[1] "To hasło musi zawierać co najmniej %(min_symbol)d symbole."
 
 #: common/djangoapps/util/password_policy_validators.py:464
 #, python-format
 msgid "Your password must contain at least %(min_symbol)d symbol."
 msgid_plural "Your password must contain at least %(min_symbol)d symbols."
 msgstr[0] "Twoje hasło musi zawierać co najmniej %(min_symbol)d symbol."
-msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_symbol)d symboli."
+msgstr[1] "Twoje hasło musi zawierać co najmniej %(min_symbol)d symbole."
 
 #: common/djangoapps/util/password_policy_validators.py:472
 #, python-format
