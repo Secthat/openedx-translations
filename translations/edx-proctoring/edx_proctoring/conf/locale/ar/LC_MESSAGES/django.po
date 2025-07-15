@@ -6,16 +6,16 @@
 # 
 # Translators:
 # Brian Smith, 2023
-# Sarina Canelake <sarina@tcril.org>, 2023
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
+# Sulaiman Muthanna, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-proctoring\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-11 00:34+0000\n"
+"POT-Creation-Date: 2025-07-13 00:47+0000\n"
 "PO-Revision-Date: 2023-05-10 00:48+0000\n"
-"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025\n"
+"Last-Translator: Sulaiman Muthanna, 2025\n"
 "Language-Team: Arabic (https://app.transifex.com/open-edx/teams/6205/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -146,7 +146,7 @@ msgstr "امتحان تمرين راسب"
 
 #: api.py:2305
 msgid "Timed Exam"
-msgstr "امتحان موقوت"
+msgstr "امتِحان مُحَدَّد الوقت"
 
 #: models.py:391
 msgid "Taking as Proctored"
@@ -156,6 +156,14 @@ msgstr "مراقب"
 msgid "Is Sample Attempt"
 msgstr "هي محاولة على سبيل المثال"
 
+#: models.py:418
+msgid "Ready to Resume"
+msgstr "جاهَز للاستِئناف"
+
+#: models.py:421
+msgid "Resumed"
+msgstr "مُستَأنَف"
+
 #: models.py:524
 msgid "Additional Time (minutes)"
 msgstr "الوقت الإضافي (بالدقائق)"
@@ -163,6 +171,59 @@ msgstr "الوقت الإضافي (بالدقائق)"
 #: models.py:525
 msgid "Review Policy Exception"
 msgstr "مراجعة استثناء السياسة"
+
+#: templates/onboarding_exam/entrance.html:5
+msgid ""
+"\n"
+"    Proctoring onboarding exam\n"
+"  "
+msgstr ""
+"\n"
+"مُراقَبة امتِحان القبول"
+
+#: templates/onboarding_exam/entrance.html:12
+msgid ""
+"\n"
+"      Why this is important to you:\n"
+"    "
+msgstr ""
+"\n"
+"لماذا يُعَد هذا مُهِم بالنِسبة لك:"
+
+#: templates/onboarding_exam/entrance.html:28
+msgid ""
+"\n"
+"        Practice taking a proctored test\n"
+"      "
+msgstr ""
+"\n"
+"تَدَرَّب على إجراء امتِحان مُراقَب"
+
+#: templates/onboarding_exam/entrance.html:40
+#, python-format
+msgid ""
+"\n"
+"        Once your profile has been reviewed, you will receive an email with review results. The email will come from\n"
+"        <a href=\"mailto:%(learner_notification_from_email)s\">%(learner_notification_from_email)s</a>.\n"
+"        Make sure this email has been added to your inbox filter.\n"
+"      "
+msgstr ""
+"\n"
+"بِمُجَرَّد أنْ يُرَاجَع مَلَفُك الشخصي، سَتَتَلَقَّى بَريداً إلِكترونياً يَتَضَمَّن نَتائِج المُراجَعة. سَيَصِل هذا البَريد الإلِكتروني مِن\n"
+"<a href=\"mailto:%(learner_notification_from_email)s\">%(learner_notification_from_email)s</a>\n"
+"تَأَكَّد أنَّ هذا البَريد الإلِكتروني قد أُضِيفَ إلى فلتر بَريدك الوارِد."
+
+#: templates/onboarding_exam/entrance.html:49
+#, python-format
+msgid ""
+"\n"
+"        Please contact\n"
+"        <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a>\n"
+"        if you have questions.\n"
+"      "
+msgstr ""
+"\n"
+"يُرجى التواصل مع <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a> إذا كانت لديك أسئِلة."
 
 #: templates/onboarding_exam/entrance.html:58
 msgid "Continue to onboarding"
@@ -186,9 +247,102 @@ msgstr ""
 "\n"
 "خطأ: حدثت مشكلة في جلسة الإعداد الخاصة بك"
 
+#: templates/onboarding_exam/rejected.html:12
+#, python-format
+msgid ""
+"\n"
+"      Please contact\n"
+"      <a href=\"mailto:%(integration_specific_email)s\">\n"
+"        %(integration_specific_email)s\n"
+"      </a> if you have questions. You may retake this onboarding exam by clicking \"Retry my exam\".\n"
+"    "
+msgstr ""
+"\n"
+"مِن فَضلِك اتَصِل بـ\n"
+"<a href=\"mailto:%(integration_specific_email)s\">\n"
+"%(integration_specific_email)s\n"
+"</a> إذا كانت لديك أسئِلة. يُمكِنك إعادة إجراء هذا الامتِحان التحضيري مِن خِلال النَقر على \"إعادة امتِحاني\"."
+
+#: templates/onboarding_exam/rejected.html:20
+#: templates/onboarding_exam/submitted.html:47
+#: templates/practice_exam/error.html:29
+#: templates/practice_exam/submitted.html:18
+msgid "Retry my exam"
+msgstr " أعِد مُحاوَلتي في الامتِحان"
+
+#: templates/onboarding_exam/rejected.html:21
+#: templates/practice_exam/error.html:30
+#: templates/practice_exam/submitted.html:19
+msgid "Resetting Onboarding Exam"
+msgstr "إعادة تعيين امتِحان القبول"
+
+#: templates/onboarding_exam/submitted.html:4
+msgid ""
+"\n"
+"    You have submitted this onboarding exam\n"
+"  "
+msgstr ""
+"\n"
+"لقد قَدَّمتَ امتِحناك التحضيري"
+
+#: templates/onboarding_exam/submitted.html:19
+#, python-format
+msgid ""
+"\n"
+"      Once your profile has been reviewed, you will receive an email\n"
+"      with review results. The email will come from\n"
+"      <a href=\"mailto:%(learner_notification_from_email)s\">\n"
+"        %(learner_notification_from_email)s\n"
+"      </a>,\n"
+"      so make sure this email has been added to your inbox filter.\n"
+"    "
+msgstr ""
+"\n"
+"بِمُجَرَّد أنْ يُرَاجَع مَلَفُك الشخصي، سَتَتَلَقَّى بَريداً إلِكترونياً يَتَضَمَّن نَتائِج المُراجَعة. سَيَصِل هذا البَريد الإلِكتروني مِن\n"
+"<a href=\"mailto:%(learner_notification_from_email)s\">\n"
+"%(learner_notification_from_email)s\n"
+"</a>\n"
+"لِذا كُن مُتَأَكِّداً أنَّ هذا البَريد الإلِكتروني قد أُضِيفَ إلى فلتر بَريدك الوارِد."
+
+#: templates/onboarding_exam/submitted.html:41
+msgid "I understand and want to reset this onboarding exam."
+msgstr "أتَفَهَّم ذلك، وأُريد إعادة تعيين هذا الامتِحان التحضيري."
+
+#: templates/onboarding_exam/submitted.html:53
+#: templates/onboarding_exam/verified.html:16
+#, python-format
+msgid ""
+"\n"
+"      Please contact\n"
+"      <a href=\"mailto:%(integration_specific_email)s\">\n"
+"        %(integration_specific_email)s\n"
+"      </a> if you have questions.\n"
+"    "
+msgstr ""
+"\n"
+"يُرجى التواصل مع <a href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a> إذا كانت لديك أسئِلة."
+
+#: templates/practice_exam/entrance.html:5
+msgid ""
+"\n"
+"        Try a proctored exam\n"
+"      "
+msgstr ""
+"\n"
+"حاوِل إجراء امتِحان مُراقَب"
+
 #: templates/practice_exam/entrance.html:20
 msgid "Continue to my practice exam"
 msgstr "الاستمرار إلى امتحان التمرين"
+
+#: templates/practice_exam/error.html:5
+msgid ""
+"\n"
+"        There was a problem with your practice proctoring session\n"
+"      "
+msgstr ""
+"\n"
+"كانت هنالك مُشكِلة في جَلسة المُراقَبة التدريبية الخاصة بك"
 
 #: templates/practice_exam/error.html:13
 msgid ""
@@ -259,6 +413,15 @@ msgstr ""
 "\n"
 "لأن الموعد المحدد قد مر، لم تعد قادراً على الخضوع لهذا الامتحان"
 
+#: templates/proctored_exam/failed-prerequisites.html:9
+msgid ""
+"\n"
+"    You did not satisfy the requirements for taking this exam with proctoring.\n"
+"    "
+msgstr ""
+"\n"
+"لَم تَستَوفِ مُتَطَلَّبات إجراء هذا الامتِحان مع المُراقَبة."
+
 #: templates/proctored_exam/failed-prerequisites.html:14
 msgid ""
 "\n"
@@ -286,15 +449,98 @@ msgstr ""
 "\n"
 "عن الامتحانات المراقبة"
 
+#: templates/proctored_exam/inactive_account.html:32
+#, python-format
+msgid ""
+"\n"
+"      If you continue to have trouble please contact <a href=\"%(link_urls.contact_us)s\" target=\"_blank\">\n"
+"      %(platform_name)s Support</a>.\n"
+"    "
+msgstr ""
+"\n"
+"إذا ما زِلتَ تُواجِه مُشكِلة، فَيُرجى التواصل مع<a href=\"%(link_urls.contact_us)s\" target=\"_blank\">\n"
+"%(platform_name)s دَعم</a>."
+
 #: templates/proctored_exam/instructions.html:33
 #: templates/proctored_exam/instructions.html:78
 msgid "Start System Check"
 msgstr "بدء فحص النظام"
 
+#: templates/proctored_exam/instructions.html:36
+msgid "Start Exam"
+msgstr "ابدَأ الامتِحان"
+
+#: templates/proctored_exam/instructions.html:40
+msgid ""
+"\n"
+"          Step 1\n"
+"        "
+msgstr ""
+"\n"
+"الخُطوة 1"
+
+#: templates/proctored_exam/instructions.html:51
+msgid "Copy Exam Code"
+msgstr " اِنسَخ رَمز الامتِحان"
+
+#: templates/proctored_exam/instructions.html:69
+msgid ""
+"\n"
+"        Make sure you:\n"
+"      "
+msgstr ""
+"\n"
+"تَأَكَّد أنَّك:"
+
+#: templates/proctored_exam/instructions.html:74
+msgid "Have a computer with a functioning webcam"
+msgstr "جَهِّز حاسوباً مُزَوَّد بكاميرا ويب تعمل"
+
+#: templates/proctored_exam/instructions.html:81
+msgid ""
+"\n"
+"          Step 3\n"
+"        "
+msgstr ""
+"\n"
+"الخُطوة 3"
+
 #: templates/proctored_exam/instructions.html:100
 #: templates/proctored_exam/proctoring_opt_out_button.html:5
 msgid "Take this exam without proctoring."
 msgstr "الخضوع للامتحان دون مراقبة."
+
+#: templates/proctored_exam/onboarding_error.html:4
+msgid ""
+"\n"
+"      You must complete an onboarding exam before taking this proctored exam\n"
+"    "
+msgstr ""
+"\n"
+"يَجِب أنْ تُكمِل امتِحان القبول، قَبل أنْ تُجرِيَ هذا الامتِحان المُراقَب"
+
+#: templates/proctored_exam/onboarding_error.html:11
+msgid ""
+"\n"
+"      Please complete an onboarding exam before attempting this exam.\n"
+"    "
+msgstr ""
+"\n"
+"مِن فَضلِك أَكمِل امتِحان القبول قَبل أنْ تُحاوِل إجراء هذا الامتِحان."
+
+#: templates/proctored_exam/onboarding_error.html:17
+#: templates/proctored_exam/onboarding_error.html:32
+msgid "Navigate to onboarding exam"
+msgstr "انتَقِل إلى الامتِحان التحضيري"
+
+#: templates/proctored_exam/onboarding_error.html:26
+msgid ""
+"\n"
+"      Your onboarding exam failed to pass all requirements.\n"
+"    "
+msgstr ""
+"\n"
+"لَم يَكُن أداؤك في الامتِحان التحضيري كافياً لاجتِياز جميع المُتَطَلَّبات."
 
 #: templates/proctored_exam/pending-prerequisites.html:14
 msgid ""
@@ -342,6 +588,34 @@ msgstr ""
 "عد إلى نافذة %(platform_name)s الدورة التعليمية لبدء الامتحان الخاص بك. عند الانتهاء من الامتحان والإشارة إلى\n"
 "أنك أنهيت الامتحان، يمكنك إغلاق هذه النافذة لإنهاء الجلسة المراقبة\n"
 "وتحميل بيانات الجلسة المراقبة من أجل مراجعتها"
+
+#: templates/proctored_exam/ready_to_resume.html:4
+msgid ""
+"\n"
+"      Your exam is ready to be resumed.\n"
+"    "
+msgstr ""
+"\n"
+"امتِحانك جاهِز للاستِئناف."
+
+#: templates/proctored_exam/ready_to_resume.html:9
+#, python-format
+msgid ""
+"\n"
+"        You will have %(total_time)s to complete your exam.\n"
+"    "
+msgstr ""
+"\n"
+"سَيَكون لديك %(total_time)s لإكمال امتِحانك."
+
+#: templates/proctored_exam/ready_to_start.html:5
+msgid ""
+"\n"
+"      Important\n"
+"    "
+msgstr ""
+"\n"
+"مُهِم"
 
 #: templates/proctored_exam/ready_to_submit.html:4
 msgid ""
@@ -529,6 +803,22 @@ msgstr "{num_of_minutes} دقائق"
 msgid " and {num_of_minutes} minutes"
 msgstr "و  {num_of_minutes} دقائق"
 
+#: utils.py:342
+msgid "a proctored exam"
+msgstr "امتِحان مُراقَب"
+
+#: utils.py:345
+msgid "a timed exam"
+msgstr "امتِحان مُحَدَّد الوقت"
+
+#: utils.py:348
+msgid "an onboarding exam"
+msgstr "امتِحان القبول"
+
+#: utils.py:350
+msgid "a practice exam"
+msgstr "امتِحان تدريبي"
+
 #: views.py:152
 msgid "could not determine the course_id"
 msgstr "لم نتمكن من تحديد معرف الدورة التعليمية"
@@ -537,6 +827,45 @@ msgstr "لم نتمكن من تحديد معرف الدورة التعليمية
 msgid "Must be a Staff User to Perform this request."
 msgstr "يجب أن تكون عضو طاقم من أجل القيام بهذا الطلب."
 
+#: views.py:694 views.py:875
+msgid "There is no onboarding exam related to this course id."
+msgstr "لا يُوجَد امتِحان قبول مُتَعَلِّق بِمُعَرَّف هذا المُقَرَّر."
+
+#: views.py:723
+msgid "There is no onboarding exam accessible to this user."
+msgstr "لا يُوجَد امتِحان قبول يُمكِن لهذا المُستَخدِم الوُصول إليه."
+
 #: views.py:1303
 msgid "you have less than a minute remaining"
 msgstr "بقي لديك أقل من دقيقة"
+
+#: views.py:1758
+msgid "Enter a valid username or email"
+msgstr "أدخِل اسمَ مُستَخدِمٍ أو بَريداً إلِكتروني صالِحاً"
+
+#: views.py:1758
+msgid "user_info"
+msgstr "user_info"
+
+#: views.py:1771
+msgid "Enter a valid positive value number"
+msgstr "أدخِل رقماً صحيحاً بِقيمة مُوجَبة"
+
+#: views.py:1771
+msgid "allowance_value"
+msgstr "allowance_value"
+
+#: views.py:2158
+#, python-brace-format
+msgid "No exams in course {course_id}."
+msgstr "لا تُوجَد امتِحانات في المُقَرَّر {course_id}."
+
+#: views.py:2164
+#, python-brace-format
+msgid "No proctored exams in course {course_id}"
+msgstr "لا تُوجَد امتِحانات مُراقَبة في المُقَرَّر {course_id}"
+
+#: views.py:2191
+#, python-brace-format
+msgid "No instructor dashboard for {proctor_service}"
+msgstr "لا تُوجَد لوحة تَحَكُّم للمُعَلَّم لـ {proctor_service}"
