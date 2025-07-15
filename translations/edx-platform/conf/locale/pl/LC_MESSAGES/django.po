@@ -3241,31 +3241,6 @@ msgstr "HTML szablonu Django."
 msgid "Organization of template."
 msgstr "Organizacja szablonu."
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #: lms/djangoapps/certificates/models.py:1166
 msgid "The course mode for this template."
 msgstr ""
