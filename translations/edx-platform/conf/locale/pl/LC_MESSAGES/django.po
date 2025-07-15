@@ -10301,6 +10301,8 @@ msgid
 "If you have concerns about sharing your data, please contact your "
 "administrator at {enterprise_customer_name}."
 msgstr 
+"Jeśli masz obawy dotyczące udostępniania swoich danych, skontaktuj się z administratorem"
+"pod adresem {enterprise_customer_name}".
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:15
 msgid "Home"
@@ -18172,11 +18174,10 @@ msgstr
 #: cms/templates/emails/course_creator_admin_subject.txt:2
 #, python-brace-format
 msgid "{email} has requested {studio_name} course creator privileges on edge"
-msgstr 
+msgstr "{email} poprosił {studio_name} o uprawnienia twórcy kursu na edge"
 
 #: cms/templates/emails/course_creator_admin_user_pending.txt:2
 #, python-brace-format
-msgid 
 msgid ""
 "User '{user}' with e-mail {email} has requested {studio_name} course creator "
 "privileges."
@@ -21471,7 +21472,7 @@ msgstr "Cena początkowa"
 #: lms/templates/courseware/program_marketing.html:255
 #, python-brace-format
 msgid "${oldPrice}"
-msgstr 
+msgstr "${oldPrice}"
 
 #: lms/templates/courseware/program_marketing.html:98
 msgid "Discounted Price"
@@ -22438,14 +22439,14 @@ msgid
 "If you have billing questions, please read the FAQ ({faq_url}) or contact "
 "{billing_email}."
 msgstr 
-"Jeżeli masz pytania dotyczące płatności, przeczytaj proszę ({faq_url}) albo 
+"Jeżeli masz pytania dotyczące płatności, przeczytaj proszę ({faq_url}), albo "
 "skontaktuj się z {billing_email}."
 
 #: lms/templates/emails/business_order_confirmation_email.txt:14
 #: lms/templates/emails/order_confirmation_email.txt:10
 #, python-brace-format
 msgid "If you have billing questions, please contact {billing_email}."
-msgstr 
+msgstr „Jeśli masz pytania dotyczące rozliczeń, skontaktuj się z {billing_email}”.
 
 #: lms/templates/emails/business_order_confirmation_email.txt:19
 #, python-brace-format
@@ -23445,19 +23446,23 @@ msgstr
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2.html:55
 msgid 
 "The answer distribution report listed below is generated periodically by an "
-"automated background process. The report is cumulative, so answers submitted "
-"after the process starts are included in a subsequent report. The report is "
-"generated several times per day."
-msgstr "Raport rozkładu odpowiedzi wymieniony poniżej jest generowany okresowo przez zautomatyzowany proces w tle. Raport jest kumulatywny, więc odpowiedzi złożone po rozpoczęciu procesu są uwzględniane w kolejnym raporcie. Raport jest generowany kilka razy dziennie."
+"automated background process.         The report is cumulative, so answers "
+"submitted after the process starts are included in a subsequent "
+"report.         The report is generated several times per day."
+msgstr "Raport rozkładu odpowiedzi wymieniony poniżej jest generowany okresowo "
+"przez zautomatyzowany proces w tle. Raport jest kumulatywny, więc odpowiedzi          "
+"złożone po rozpoczęciu procesu są uwzględniane w kolejnym raporcie. Raport jest generowany "
+"kilka razy dziennie."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2.html:63
 #, python-brace-format
 msgid 
 "{strong_start}Note{strong_end}: {ul_start}{li_start}To keep student data "
-"secure, you cannot save or email these links for direct access. Copies of "
-"links expire within 5 minutes.{li_end}{li_start}Report files are deleted 90 "
-"days after generation. If you will need access to old reports, download and "
-"store the files, in accordance with your institution's data security policies.{li_end}{ul_end}"
+"secure, you cannot save or         email these links for direct access. "
+"Copies of links expire within 5 minutes.{li_end}{li_start}Report "
+"files         are deleted 90 days after generation. If you will need access "
+"to old reports, download and store the files,         in accordance with "
+"your institution's data security policies.{li_end}{ul_end}"
 msgstr 
 "{strong_start}Uwaga{strong_end}: {ul_start}{li_start}Aby zapewnić bezpieczeństwo "
 "danych studentów, nie możesz zapisać ani wysłać tych linków do bezpośredniego dostępu. "
