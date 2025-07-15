@@ -9951,10 +9951,11 @@ msgstr
 #: openedx/core/djangoapps/util/user_messages.py:241
 #, python-brace-format
 msgid "{header_open}{title}{header_close}"
-msgstr 
+msgstr "{header_open}{title}{header_close}"
 
 #: openedx/core/djangoapps/util/user_messages.py:256
-#: cms/templates/course_outline.html:61 cms/templates/course_outline.html:99
+#: cms/templates/course_outline.html:61 
+#: cms/templates/course_outline.html:99
 #: cms/templates/index.html:319
 msgid "Dismiss"
 msgstr "Odrzuć"
@@ -10227,13 +10228,12 @@ msgstr
 "Określają one kontekst, w którym mają zostać wyłączone rabaty kontrolowane "
 "przez lms. Jeśli nie ustawiono żadnych wartości, konfiguracja ma zastosowanie "
 "globalne. Jeśli ustawiona jest pojedyncza wartość, konfiguracja dotyczy "
-wszystkich kursów w tym kontekście. Jednocześnie można ustawić co najwyżej jedną "
-wartość. Jeśli do kursu ma zastosowanie wiele kontekstów (na przykład, jeśli "
-konfiguracja jest określona konkretnie dla kursu i dla organizacji, w której "
-znajduje się kurs, wówczas bardziej szczegółowy kontekst zastępuje bardziej "
+"wszystkich kursów w tym kontekście. Jednocześnie można ustawić co najwyżej jedną "
+"wartość. Jeśli do kursu ma zastosowanie wiele kontekstów (na przykład, jeśli "
+"konfiguracja jest określona konkretnie dla kursu i dla organizacji, w której "
+"znajduje się kurs, wówczas bardziej szczegółowy kontekst zastępuje bardziej "
 "ogólny kontekst)."
 
-Przetłumaczono z DeepL.com (wersja darmowa)
 #: openedx/features/discounts/admin.py:54
 msgid 
 "These define the context to configure the percentage for the first purchase "
@@ -10287,8 +10287,8 @@ msgid
 "visit the {enterprise_name} dashboard{link_end}."
 msgstr 
 "Masz dostęp do pulpitu nawigacyjnego {bold_start}{enterprise_name}{bold_end}. Aby "
-"uzyskać dostęp do kursów dostępnych za pośrednictwem {enterprise_name}, {link_start}"
-"odwiedź pulpit nawigacyjny {enterprise_name}{link_end}".
+"uzyskać dostęp do kursów dostępnych za pośrednictwem {enterprise_name},{link_start} "
+"odwiedź pulpit nawigacyjny {enterprise_name}{link_end}."
 
 #: openedx/features/enterprise_support/api.py:1004
 #, python-brace-format
@@ -10338,7 +10338,7 @@ msgid
 "learning!"
 msgstr 
 "Dziękujemy za dołączenie do {platform_name}. Jeszcze tylko kilka kroków przed rozpoczęciem "
-"nauki!
+"nauki!"
 
 #: openedx/features/enterprise_support/utils.py:205
 #: lms/templates/course_modes/track_selection.html:156
@@ -10355,22 +10355,19 @@ msgid "Shift due dates"
 msgstr "Przesuń terminy"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:134
-msgid 
-"It looks like you missed some important deadlines based on our suggested "
+msgid "It looks like you missed some important deadlines based on our suggested "
 "schedule."
-msgstr 
-"Wygląda na to, że przegapiłeś kilka ważnych terminów w oparciu o nasz sugerowany"
-"harmonogram".
+msgstr "Wygląda na to, że przegapiłeś kilka ważnych terminów w oparciu o nasz sugerowany "
+"harmonogram."
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:135
-msgid 
-"To keep yourself on track, you can update this schedule and shift the past "
+msgid "To keep yourself on track, you can update this schedule and shift the past "
 "due assignments into the future. Don’t worry—you won’t lose any of the "
 "progress you’ve made when you shift your due dates."
 msgstr 
 "Aby utrzymać się na dobrej drodze, możesz zaktualizować ten harmonogram i "
 "przesunąć przeszłe zadania do wykonania na przyszłość. Nie martw się - nie "
-"stracisz żadnych postępów, które poczyniłeś po przesunięciu terminów".
+"stracisz żadnych postępów, które poczyniłeś po przesunięciu terminów."
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:145
 #, python-brace-format
@@ -10382,7 +10379,7 @@ msgstr[1] "Spróbuj ponownie (pozostało {attempts} prób)"
 #: openedx/features/personalized_learner_schedules/call_to_action.py:150
 #, python-brace-format
 msgid "You have used {attempts} of {max_attempts} attempts for this problem."
-msgstr „Wykorzystałeś {attempts} z {max_attempts} prób dla tego problemu”.
+msgstr "Wykorzystałeś {attempts} z {max_attempts} prób dla tego problemu."
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:155
 msgid "Try again (unlimited attempts)"
@@ -18183,10 +18180,13 @@ msgid
 "User '{user}' with e-mail {email} has requested {studio_name} course creator "
 "privileges."
 msgstr 
+"Użytkownik '{user}' o adresie e-mail {email} poprosił {studio_name} o uprawnienia "
+"twórcy kursów."
 
 #: cms/templates/emails/course_creator_admin_user_pending.txt:5
 msgid "To grant or deny this request, use the course creator admin table."
-msgstr 
+msgstr "Żeby zaakceptować albo odrzucić tę prośbę, użyj panelu administracyjnego "
+"twórcy kursów."
 
 #: cms/templates/emails/course_creator_denied.txt:3
 #, python-brace-format
@@ -18194,6 +18194,8 @@ msgid
 "Your request for course creation rights to {studio_name} have been denied. "
 "If you believe this was in error, please contact {email}"
 msgstr 
+"Twoja prośba o uprawnienia twórcy kursów dla {studio_name} została odrzucona. "
+"Jeżeli uważasz, że to jest błąd, skontaktuj się z {email}"
 
 #: cms/templates/emails/course_creator_granted.txt:3
 #, python-brace-format
