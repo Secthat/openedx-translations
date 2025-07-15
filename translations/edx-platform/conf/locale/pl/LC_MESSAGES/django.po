@@ -9,6 +9,7 @@
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
@@ -20,9 +21,10 @@
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
 #, fuzzy
-msgid 
-msgstr 
+msgid ""
+msgstr ""
 "#-#-#-#-#  django.po (0.1a)  #-#-#-#-#\n"
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
@@ -64,7 +66,7 @@ msgstr
 "#-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-16 00:38+0000\n"
+"POT-Creation-Date: 2025-07-15 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22446,7 +22448,7 @@ msgstr
 #: lms/templates/emails/order_confirmation_email.txt:10
 #, python-brace-format
 msgid "If you have billing questions, please contact {billing_email}."
-msgstr "Jeśli masz pytania dotyczące rozliczeń, skontaktuj się z {billing_email}".
+msgstr "Jeśli masz pytania dotyczące rozliczeń, skontaktuj się z {billing_email}."
 
 #: lms/templates/emails/business_order_confirmation_email.txt:19
 #, python-brace-format
