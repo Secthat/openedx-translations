@@ -1069,8 +1069,8 @@ msgstr "%"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1666
 #, python-brace-format
-msgid "{section_or_subsection} \"{display_name}\"
-msgstr "{section_or_subsection} „{display_name}”
+msgid "{section_or_subsection} \"{display_name}\""
+msgstr "{section_or_subsection} \"{display_name}\""
 
 #: cms/djangoapps/course_creators/models.py:40
 msgid "unrequested"
@@ -2393,7 +2393,7 @@ msgid
 "To disable the XBlock and prevent rendering in the LMS, leave \"Enabled\" "
 "deselected; for clarity, update XBlockStudioConfiguration support state "
 "accordingly."
-msgstr "Żeby wyłączyć XBlock i powstrzymać renderowanie w LMS, zostaw \"Włączone"\ "
+msgstr "Żeby wyłączyć XBlock i powstrzymać renderowanie w LMS, zostaw \"Enabled\" "
 "w stanie niezaznaczonym; Dla jasności, wykonaj update stanu wsparcia "
 "XBlockStudioConfiguration zgodnie z poprzednim krokiem."
 
@@ -3562,12 +3562,18 @@ msgid
 "{start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. "
 "You’re not quite there, but there's still time to reach that goal!\n"
 "                                "
-msgstr[0] 
+msgid_plural 
+"\n"
+"                    You set a goal of learning {start_bold}%(days_per_week)s "
+"times a week in %(course_name)s{end_bold}. Now it’s up to you to make those "
+"goals a reality.\n"
+"                "
+msgstr[0]
+"\n"
 "                                Ustawiłeś cel nauki na "
 "{start_bold}%(days_per_week)s razy w tygodniu w %(course_name)s{end_bold}. "
 "Jeszcze nie osiągnąłeś celu, ale wciąż masz czas, aby go osiągnąć!\n"
-msgstr[1] 
-"                                Ustawiłeś cel nauki na "
+msgstr[1] "                                Ustawiłeś cel nauki na "
 "{start_bold}%(days_per_week)s razy w tygodniu w %(course_name)s{end_bold}. "
 "Jeszcze nie osiągnąłeś celu, ale wciąż masz czas, aby go osiągnąć!\n"
 
@@ -10218,7 +10224,16 @@ msgid
 "specifically, and for the org that the course is in, then the more specific "
 "context overrides the more general context.)"
 msgstr 
+"Określają one kontekst, w którym mają zostać wyłączone rabaty kontrolowane "
+"przez lms. Jeśli nie ustawiono żadnych wartości, konfiguracja ma zastosowanie "
+"globalne. Jeśli ustawiona jest pojedyncza wartość, konfiguracja dotyczy "
+wszystkich kursów w tym kontekście. Jednocześnie można ustawić co najwyżej jedną "
+wartość. Jeśli do kursu ma zastosowanie wiele kontekstów (na przykład, jeśli "
+konfiguracja jest określona konkretnie dla kursu i dla organizacji, w której "
+znajduje się kurs, wówczas bardziej szczegółowy kontekst zastępuje bardziej "
+"ogólny kontekst)."
 
+Przetłumaczono z DeepL.com (wersja darmowa)
 #: openedx/features/discounts/admin.py:54
 msgid 
 "These define the context to configure the percentage for the first purchase "
@@ -10226,7 +10241,12 @@ msgid
 "configuration is specified for the course specifically, and for the org that "
 "the course is in, then the more specific context overrides the more general "
 "context.)"
+
 msgstr 
+"Te definiują kontekst konfiguracji procenta zniżki za pierwszy zakup. "
+"Jeśli więcej kontekstów pasuje do kursu (Na przykład, jeśli konfiguracja jest "
+"specificzna dla danego kursu, i dla organizacji w której jest ten kurs, "
+"to ten bardziej specyficzny kontekst nadpisuje ten ogólny.)"
 
 #: openedx/features/discounts/utils.py:142
 #, python-brace-format
@@ -10234,6 +10254,8 @@ msgid
 "{s_sr}Original price: {s_op}{original_price}{e_p}, discount price: {e_sr}"
 "{formatted_discount_price}"
 msgstr 
+"{s_sr}Oryginalna cena: {s_op}{original_price}{e_p}, Cena zniżkowa: {e_sr}"
+"{formatted_discount_price}"
 
 #: openedx/features/enterprise_support/admin/forms.py:13
 msgid "CSV File"
@@ -10264,11 +10286,14 @@ msgid
 "access the courses available to you through {enterprise_name}, {link_start}"
 "visit the {enterprise_name} dashboard{link_end}."
 msgstr 
+"Masz dostęp do pulpitu nawigacyjnego {bold_start}{enterprise_name}{bold_end}. Aby "
+"uzyskać dostęp do kursów dostępnych za pośrednictwem {enterprise_name}, {link_start}"
+"odwiedź pulpit nawigacyjny {enterprise_name}{link_end}".
 
 #: openedx/features/enterprise_support/api.py:1004
 #, python-brace-format
 msgid "Enrollment in {course_title} was not complete."
-msgstr 
+msgstr "Zapis na {course_title} nie był kompletny."
 
 #: openedx/features/enterprise_support/api.py:1008
 #, python-brace-format
@@ -10301,6 +10326,10 @@ msgid
 "access {platform_name}.{line_break}{line_break}Error Details:{line_break}"
 "{error_message}"
 msgstr 
+"Przepraszamy, nie masz uprawnień dostępu do {platform_name} za pośrednictwem tego "
+"kanału. Prosimy o kontakt z administratorem lub kierownikiem ds. nauczania w celu uzyskania "
+"dostępu do {platform_name}.{line_break}{line_break} Szczegóły błędu:{line_break}"
+"{error_message}"
 
 #: openedx/features/enterprise_support/utils.py:200
 #, python-brace-format
@@ -10308,6 +10337,8 @@ msgid
 "Thank you for joining {platform_name}. Just a couple steps before you start "
 "learning!"
 msgstr 
+"Dziękujemy za dołączenie do {platform_name}. Jeszcze tylko kilka kroków przed rozpoczęciem "
+"nauki!
 
 #: openedx/features/enterprise_support/utils.py:205
 #: lms/templates/course_modes/track_selection.html:156
@@ -10328,6 +10359,8 @@ msgid
 "It looks like you missed some important deadlines based on our suggested "
 "schedule."
 msgstr 
+"Wygląda na to, że przegapiłeś kilka ważnych terminów w oparciu o nasz sugerowany"
+"harmonogram".
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:135
 msgid 
@@ -10335,18 +10368,21 @@ msgid
 "due assignments into the future. Don’t worry—you won’t lose any of the "
 "progress you’ve made when you shift your due dates."
 msgstr 
+"Aby utrzymać się na dobrej drodze, możesz zaktualizować ten harmonogram i "
+"przesunąć przeszłe zadania do wykonania na przyszłość. Nie martw się - nie "
+"stracisz żadnych postępów, które poczyniłeś po przesunięciu terminów".
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:145
 #, python-brace-format
 msgid "Try again ({attempts} attempt remaining)"
 msgid_plural "Try again ({attempts} attempts remaining)"
-msgstr[0] 
-msgstr[1] 
+msgstr[0] "Spróbuj ponownie (pozostało {attempts} prób)"
+msgstr[1] "Spróbuj ponownie (pozostało {attempts} prób)"
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:150
 #, python-brace-format
 msgid "You have used {attempts} of {max_attempts} attempts for this problem."
-msgstr 
+msgstr „Wykorzystałeś {attempts} z {max_attempts} prób dla tego problemu”.
 
 #: openedx/features/personalized_learner_schedules/call_to_action.py:155
 msgid "Try again (unlimited attempts)"
@@ -10355,7 +10391,7 @@ msgstr "Spróbuj ponownie (nieograniczone próby)"
 #: openedx/features/personalized_learner_schedules/call_to_action.py:156
 #, python-brace-format
 msgid "You have used {attempts} of unlimited attempts for this problem."
-msgstr 
+msgstr "Wykorzystałeś {attempts} nielimitowanych prób dla tego problemu".
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:70
 #: cms/templates/widgets/header.html:386
