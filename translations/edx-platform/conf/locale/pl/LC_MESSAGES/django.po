@@ -2505,7 +2505,7 @@ msgid ""
 "To disable the XBlock and prevent rendering in the LMS, leave \"Enabled\" "
 "deselected; for clarity, update XBlockStudioConfiguration support state "
 "accordingly."
-msgstr "Żeby wyłączyć XBlock i powstrzymać renderowanie w LMS, zostaw \"Włączone"\"
+msgstr "Żeby wyłączyć XBlock i powstrzymać renderowanie w LMS, zostaw \"Włączone\" "
 "w stanie niezaznaczonym; Dla jasności, wykonaj update stanu wsparcia "
 "XBlockStudioConfiguration zgodnie z poprzednim krokiem."
 
