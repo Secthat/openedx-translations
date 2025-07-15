@@ -10388,7 +10388,7 @@ msgstr "Spróbuj ponownie (nieograniczone próby)"
 #: openedx/features/personalized_learner_schedules/call_to_action.py:156
 #, python-brace-format
 msgid "You have used {attempts} of unlimited attempts for this problem."
-msgstr "Wykorzystałeś {attempts} nielimitowanych prób dla tego problemu".
+msgstr "Wykorzystałeś {attempts} nielimitowanych prób dla tego problemu."
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:70
 #: cms/templates/widgets/header.html:386
@@ -18177,6 +18177,7 @@ msgstr
 #: cms/templates/emails/course_creator_admin_user_pending.txt:2
 #, python-brace-format
 msgid 
+msgid ""
 "User '{user}' with e-mail {email} has requested {studio_name} course creator "
 "privileges."
 msgstr 
@@ -21458,8 +21459,8 @@ msgid "Updates to Discussion Posts You Follow"
 msgstr "Aktualizacje postów dyskusyjnych, które śledzisz"
 
 #: lms/templates/courseware/program_marketing.html:92
-msgid "Purchase the Program ("
-msgstr "Kup program ("
+msgid "Purchase the Program"
+msgstr "Kup program"
 
 #: lms/templates/courseware/program_marketing.html:94
 #: lms/templates/courseware/program_marketing.html:254
@@ -21479,12 +21480,12 @@ msgstr "Cena promocyjna"
 #: lms/templates/courseware/program_marketing.html:99
 #, python-brace-format
 msgid "${newPrice}"
-msgstr 
+msgstr "${newPrice}"
 
 #: lms/templates/courseware/program_marketing.html:104
 #, python-brace-format
-msgid "{currency})"
-msgstr 
+msgid "{currency}"
+msgstr "{currency}"
 
 #: lms/templates/courseware/program_marketing.html:116
 msgid "Start Learning"
@@ -22412,6 +22413,7 @@ msgstr
 msgid 
 "Get started by making a note in something you just read, like {section_link}."
 msgstr 
+"Zacznij od stworzenia notatki w czymś, co właśnie przeczytałeś, np.: {section_link}."
 
 #: lms/templates/edxnotes/toggle_notes.html:22
 msgid "Hide notes"
@@ -22436,6 +22438,8 @@ msgid
 "If you have billing questions, please read the FAQ ({faq_url}) or contact "
 "{billing_email}."
 msgstr 
+"Jeżeli masz pytania dotyczące płatności, przeczytaj proszę ({faq_url}) albo 
+"skontaktuj się z {billing_email}."
 
 #: lms/templates/emails/business_order_confirmation_email.txt:14
 #: lms/templates/emails/order_confirmation_email.txt:10
@@ -22449,6 +22453,7 @@ msgid
 "{order_placed_by} placed an order and mentioned your name as the "
 "Organization contact."
 msgstr 
+"{order_placed_by} wystawił zamówienie i wspomniał Ciebie jako kontakt organizacji. "
 
 #: lms/templates/emails/business_order_confirmation_email.txt:23
 #, python-brace-format
@@ -22456,6 +22461,8 @@ msgid
 "{order_placed_by} placed an order and mentioned your name as the additional "
 "receipt recipient."
 msgstr 
+"{order_placed_by} wystawił zamówienie i wspomniał Ciebie jako dodatkową osobę "
+"uprawnioną do otrzymania rachunku. "
 
 #: lms/templates/emails/business_order_confirmation_email.txt:27
 #: lms/templates/emails/order_confirmation_email.txt:24
@@ -22471,7 +22478,7 @@ msgstr "Ilość - Opis - Cena"
 #: lms/templates/emails/order_confirmation_email.txt:31
 #, python-brace-format
 msgid "Total billed to credit/debit card: {currency_symbol}{total_cost}"
-msgstr 
+msgstr "Łączna kwota na kartę kredytową/debetową: {currency_symbol}{total_cost}"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:38
 msgid "Company Name:"
@@ -23428,7 +23435,12 @@ msgid
 "store the files, in accordance with your institution's data security "
 "policies.{li_end}{ul_end}"
 msgstr 
-"{strong_start}Uwaga{strong_end}: {ul_start}{li_start}Aby zapewnić bezpieczeństwo danych studentów, nie możesz zapisać ani wysłać tych linków do bezpośredniego dostępu. Kopie linków wygasają po 5 minutach.{li_end}{li_start}Pliki raportów są usuwane 90 dni po wygenerowaniu. Jeśli będziesz potrzebować dostępu do starych raportów, pobierz i przechowuj pliki, zgodnie z politykami bezpieczeństwa danych Twojej instytucji.{li_end}{ul_end}"
+"{strong_start}Uwaga{strong_end}: {ul_start}{li_start}Aby zapewnić bezpieczeństwo "
+"danych studentów, nie możesz zapisać ani wysłać tych linków do bezpośredniego dostępu. "
+"Kopie linków wygasają po 5 minutach.{li_end}{li_start}Pliki raportów są usuwane 90 dni "
+"po wygenerowaniu. Jeśli będziesz potrzebować dostępu do starych raportów, pobierz i "
+"przechowuj pliki, zgodnie z politykami bezpieczeństwa danych Twojej instytucji."
+"{li_end}{ul_end}"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2.html:55
 msgid 
@@ -23447,7 +23459,12 @@ msgid
 "days after generation. If you will need access to old reports, download and "
 "store the files, in accordance with your institution's data security policies.{li_end}{ul_end}"
 msgstr 
-"{strong_start}Uwaga{strong_end}: {ul_start}{li_start}Aby zapewnić bezpieczeństwo danych studentów, nie możesz zapisać ani wysłać tych linków do bezpośredniego dostępu. Kopie linków wygasają po 5 minutach.{li_end}{li_start}Pliki raportów są usuwane 90 dni po wygenerowaniu. Jeśli będziesz potrzebować dostępu do starych raportów, pobierz i przechowuj pliki, zgodnie z politykami bezpieczeństwa danych Twojej instytucji.{li_end}{ul_end}"
+"{strong_start}Uwaga{strong_end}: {ul_start}{li_start}Aby zapewnić bezpieczeństwo "
+"danych studentów, nie możesz zapisać ani wysłać tych linków do bezpośredniego dostępu. "
+"Kopie linków wygasają po 5 minutach.{li_end}{li_start}Pliki raportów są usuwane 90 dni "
+"po wygenerowaniu. Jeśli będziesz potrzebować dostępu do starych raportów, pobierz i "
+"przechowuj pliki, zgodnie z politykami bezpieczeństwa danych Twojej instytucji."
+"{li_end}{ul_end}"
 
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html:7
 msgid "Edit Coupon Code"
