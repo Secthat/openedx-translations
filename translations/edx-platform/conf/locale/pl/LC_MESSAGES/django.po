@@ -3554,6 +3554,7 @@ msgid
 "                            There’s still time to reach your goal\n"
 "                        "
 msgstr 
+"\n"
 "                            Wciąż jest czas, aby osiągnąć swój cel\n"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:55
@@ -3575,7 +3576,9 @@ msgstr[0]
 "                                Ustawiłeś cel nauki na "
 "{start_bold}%(days_per_week)s razy w tygodniu w %(course_name)s{end_bold}. "
 "Jeszcze nie osiągnąłeś celu, ale wciąż masz czas, aby go osiągnąć!\n"
-msgstr[1] "                                Ustawiłeś cel nauki na "
+msgstr[1] "
+"\n"
+                                Ustawiłeś cel nauki na "
 "{start_bold}%(days_per_week)s razy w tygodniu w %(course_name)s{end_bold}. "
 "Jeszcze nie osiągnąłeś celu, ale wciąż masz czas, aby go osiągnąć!\n"
 
@@ -3584,6 +3587,7 @@ msgid
 "\n"
 "                                Jump back in\n"
 "                            "
+"\n"
 msgstr "                                Wróć do nauki\n"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:90
@@ -3593,6 +3597,7 @@ msgid
 "goal. The best goal is one that you can stick to.\n"
 "                        "
 msgstr 
+"\n"
 "                            Pamiętaj, że zawsze możesz zmienić swój cel "
 "nauki. Najlepszy cel to taki, który możesz osiągnąć.\n"
 
@@ -3601,7 +3606,8 @@ msgid
 "\n"
 "                            Adjust my goal\n"
 "                        "
-msgstr "                            Dostosuj mój cel\n"
+msgstr "\n"
+"                            Dostosuj mój cel\n"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:129
 msgid 
@@ -3609,7 +3615,9 @@ msgid
 "                            Unsubscribe from goal reminder emails for this "
 "course\n"
 "                        "
-msgstr "                            Wypisz się z przypomnień o celu dla "
+msgstr 
+"\n"
+"                            Wypisz się z przypomnień o celu dla "
 "tego kursu\n"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
@@ -7574,7 +7582,7 @@ msgid
 "value can be set at a time.{br}If multiple contexts apply to a course (for "
 "example, if configuration is specified for the course specifically, and for "
 "the org that the course is in, then the more specific context overrides the "
-"more general context."
+"more general context.)"
 msgstr 
 "Te wartości definiują kontekst, w którym ta konfiguracja będzie "
 "aktywna. Jeśli żadne wartości nie zostaną ustawione, konfiguracja "
@@ -8430,7 +8438,7 @@ msgid
 "{strong}></{p}>"
 msgstr 
 "<{p}><{strong}>{replier_name}</{strong}> skomentował(a) odpowiedź "
-"<{strong}>{author_name}</{strong}> w poście, który obserwujesz <{strong>"
+"<{strong}>{author_name}</{strong}> w poście, który obserwujesz <{strong}>"
 "{post_title}</strong></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:135
@@ -8446,7 +8454,7 @@ msgstr
 #, python-brace-format
 msgid 
 "<{p}><{strong}>{replier_name}'s</{strong}> response has been endorsed in "
-"your post <{strong}>{post_title}</{strong></p>"
+"your post <{strong}>{post_title}</{strong}></p>"
 msgstr 
 "<{p}><{strong}>{replier_name}'s</{strong}> odpowiedź została poparta w Twoim "
 "poście <{strong}>{post_title}</strong></p>"
@@ -12961,9 +12969,11 @@ msgid_plural
 "                Learners will see all of the %(num_selected)s selected "
 "components, in random order:\n"
 "                "
-msgstr[0] "Uczniowie zobaczą wybrany komponent:\n"
+msgstr[0] "\n"
+"Uczniowie zobaczą wybrany komponent:\n"
 "                "
-msgstr[1] "Uczniowie zobaczą wszystkie z %(num_selected)s wybranych komponentów, w losowej kolejności:\n"
+msgstr[1] "\n"
+"Uczniowie zobaczą wszystkie z %(num_selected)s wybranych komponentów, w losowej kolejności:\n"
 "                "
 
 #: xmodule/templates/item_bank/author_view.html:32
@@ -14159,7 +14169,7 @@ msgstr "%s zostało oznaczone jako usunięte"
 #: wiki/plugins/images/views.py:119
 #, python-format
 msgid "%(file)s has been changed to revision #%(revision)d"
-msgstr "%(file)s zostało zmienione na rewizję #%d"
+msgstr "%(file)s zostało zmienione na rewizję #%(revision)d"
 
 #: wiki/plugins/images/views.py:157
 #, python-format
@@ -14659,7 +14669,7 @@ msgstr "Artykuł \"%s\" oraz jego podartykuły zostały teraz przywrócone."
 msgid 
 "The article %(title)s is now set to display revision #%(revision_number)d"
 msgstr 
-"Artykuł %(title)s jest teraz ustawiony na wyświetlanie rewizji #%d"
+"Artykuł %(title)s jest teraz ustawiony na wyświetlanie rewizji #%(revision_number)d"
 
 #: wiki/views/article.py:607
 msgid "New title"
@@ -14668,7 +14678,7 @@ msgstr "Nowy tytuł"
 #: wiki/views/article.py:631
 #, python-format
 msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
-msgstr "Scalanie rewizji #%d i #%d"
+msgstr "Scalanie rewizji #%(r1)d i #%(r2)d"
 
 #: wiki/views/article.py:635
 #, python-format
@@ -14676,7 +14686,7 @@ msgid
 "A new revision was created: Merge between Revision #%(r1)d and Revision "
 "#%(r2)d"
 msgstr 
-"Nowa rewizja została utworzona: Scalanie rewizji #%d i #%d"
+"Nowa rewizja została utworzona: Scalanie rewizji #%(r1)d i #%(r2)d"
 
 #: edx_proctoring_proctortrack/backends/proctortrack_rest.py:32
 msgid 
@@ -19727,7 +19737,7 @@ msgstr
 #: lms/templates/vert_module.html:18
 #, python-brace-format
 msgid "{subsection_format} due {{date}}"
-msgstr "{subsection_format} termin {date}"
+msgstr "{subsection_format} termin {{date}}"
 
 #: lms/templates/vert_module.html:22
 #, python-brace-format
@@ -21534,7 +21544,7 @@ msgstr "Średni czas trwania"
 #: lms/templates/courseware/program_marketing.html:218
 #, python-brace-format
 msgid "{weeks_to_complete} weeks per course"
-msgstr "Tydzień na kurs"
+msgstr "{weeks_to_complete} tygodni na kurs"
 
 #: lms/templates/courseware/program_marketing.html:226
 msgid "Effort"
@@ -21543,7 +21553,7 @@ msgstr "Wysiłek"
 #: lms/templates/courseware/program_marketing.html:229
 #, python-brace-format
 msgid "{min_hours_effort_per_week}-{max_hours_effort_per_week} hours per week, per course"
-msgstr "Godzin na tydzień, na kurs"
+msgstr "{min_hours_effort_per_week}-{max_hours_effort_per_week} godzin na tydzień, na kurs"
 
 #: lms/templates/courseware/program_marketing.html:238
 msgid "Number of Courses"
@@ -21552,7 +21562,7 @@ msgstr "Liczba kursów"
 #: lms/templates/courseware/program_marketing.html:241
 #, python-brace-format
 msgid "{number_of_courses} courses in program"
-msgstr "Liczba kursów w programie"
+msgstr "{number_of_courses} kursów w programie"
 
 #: lms/templates/courseware/program_marketing.html:249
 msgid "Price (USD)"
@@ -21561,7 +21571,7 @@ msgstr "Cena (USD)"
 #: lms/templates/courseware/program_marketing.html:260
 #, python-brace-format
 msgid "${newPrice}{htmlEnd} for entire program"
-msgstr "Cena {newPrice} za cały program"
+msgstr "Cena {newPrice}{htmlEnd} za cały program"
 
 #: lms/templates/courseware/program_marketing.html:265
 #, python-brace-format
@@ -24639,6 +24649,7 @@ msgid
 "{end_ul_tag}\n"
 "{end_p_tag}\n"
 msgstr 
+"\n"
 "{p_tag}Obecnie nie masz żadnych ocen do dokonania w systemie oceniania przez rówieśników. "
 "Aby mieć zadania do oceniania przez rówieśników:\n"
 "{ul_tag}\n"
