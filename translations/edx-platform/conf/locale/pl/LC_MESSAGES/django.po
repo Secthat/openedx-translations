@@ -3595,6 +3595,7 @@ msgstr
 "\n"
 "                                Wróć do nauki\n"
 "                                "
+"\n"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:90
 msgid 
