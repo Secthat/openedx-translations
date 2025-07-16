@@ -3591,7 +3591,9 @@ msgid
 "                                Jump back in\n"
 "                            "
 "\n"
-msgstr "                                Wróć do nauki\n"
+msgstr 
+"\n"
+"                                Wróć do nauki\n"
 "                                "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:90
