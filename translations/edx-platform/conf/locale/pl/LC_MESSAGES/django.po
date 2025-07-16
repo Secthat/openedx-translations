@@ -3668,7 +3668,7 @@ msgid
 "context. At most one value can be set at a time.<br>If multiple contexts "
 "apply to a course (for example, if configuration is specified for the course "
 "specifically, and for the org that the course is in, then the more specific "
-"context overrides the more general context."
+"context overrides the more general context.)"
 msgstr 
 "Te ustawienia definiują kontekst, w którym wyłączona zostanie strona postępu "
 "kursu w aplikacji frontend-app-learning. Jeśli nie ustawiono żadnych wartości, "
