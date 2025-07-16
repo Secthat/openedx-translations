@@ -3556,6 +3556,7 @@ msgid
 msgstr 
 "\n"
 "                            Wciąż jest czas, aby osiągnąć swój cel\n"
+"                        "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:55
 #, python-format, python-brace-format
@@ -3570,17 +3571,19 @@ msgid_plural
 "                    You set a goal of learning {start_bold}%(days_per_week)s "
 "times a week in %(course_name)s{end_bold}. Now it’s up to you to make those "
 "goals a reality.\n"
-"                "
+"                                "
 msgstr[0]
 "\n"
 "                                Ustawiłeś cel nauki na "
 "{start_bold}%(days_per_week)s razy w tygodniu w %(course_name)s{end_bold}. "
 "Jeszcze nie osiągnąłeś celu, ale wciąż masz czas, aby go osiągnąć!\n"
+"                                "
 msgstr[1]
 "\n"
 "                                Ustawiłeś cel nauki na "
 "{start_bold}%(days_per_week)s razy w tygodniu w %(course_name)s{end_bold}. "
 "Jeszcze nie osiągnąłeś celu, ale wciąż masz czas, aby go osiągnąć!\n"
+"                                "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:80
 msgid 
@@ -3589,17 +3592,19 @@ msgid
 "                            "
 "\n"
 msgstr "                                Wróć do nauki\n"
+"                                "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:90
 msgid 
 "\n"
 "                            Remember, you can always change your learning "
 "goal. The best goal is one that you can stick to.\n"
-"                        "
+"                                "
 msgstr 
 "\n"
 "                            Pamiętaj, że zawsze możesz zmienić swój cel "
 "nauki. Najlepszy cel to taki, który możesz osiągnąć.\n"
+"                                "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:109
 msgid 
@@ -3608,6 +3613,7 @@ msgid
 "                        "
 msgstr "\n"
 "                            Dostosuj mój cel\n"
+"                        "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:129
 msgid 
@@ -3617,8 +3623,8 @@ msgid
 "                        "
 msgstr 
 "\n"
-"                            Wypisz się z przypomnień o celu dla "
-"tego kursu\n"
+"                            Wypisz się z przypomnień o celu dla tego kursu\n"
+"                        "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
 msgid "You're almost there!"
@@ -7588,7 +7594,7 @@ msgstr
 "aktywna. Jeśli żadne wartości nie zostaną ustawione, konfiguracja "
 "zastosuje się globalnie. Jeśli zostanie ustawiona jedna wartość, "
 "konfiguracja będzie miała zastosowanie do wszystkich kursów w tym "
-"kontekście. W danym czasie można ustawić tylko jedną wartość. "
+"kontekście. W danym czasie można ustawić tylko jedną wartość.{br}"
 "Jeśli dla kursu zastosują się różne konteksty (na przykład, jeśli "
 "konfiguracja jest określona dla samego kursu oraz dla organizacji, "
 "w której kurs się znajduje, wtedy bardziej szczegółowy kontekst "
@@ -8488,7 +8494,7 @@ msgid
 "<{p}>You have multiple submissions awaiting review for <{strong}>{ora_name}</"
 "{strong}></{p}>"
 msgstr 
-"<{p}>Masz wiele odpowiedzi oczekujących na przegląd w ramach <{strong>{ora_name}</{strong}></{p}>"
+"<{p}>Masz wiele odpowiedzi oczekujących na przegląd w ramach <{strong}>{ora_name}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:223
 #, python-brace-format
