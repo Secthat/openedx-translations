@@ -3576,9 +3576,9 @@ msgstr[0]
 "                                Ustawiłeś cel nauki na "
 "{start_bold}%(days_per_week)s razy w tygodniu w %(course_name)s{end_bold}. "
 "Jeszcze nie osiągnąłeś celu, ale wciąż masz czas, aby go osiągnąć!\n"
-msgstr[1] "
+msgstr[1]
 "\n"
-                                Ustawiłeś cel nauki na "
+"                                Ustawiłeś cel nauki na "
 "{start_bold}%(days_per_week)s razy w tygodniu w %(course_name)s{end_bold}. "
 "Jeszcze nie osiągnąłeś celu, ale wciąż masz czas, aby go osiągnąć!\n"
 
